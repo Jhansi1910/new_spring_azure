@@ -62,7 +62,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>Arunregistry.azurecr.io/${spring-boot-starter-thymeleaf.artifactId}</name>
+						<name>arunregistry.azurecr.io/${project.artifactId}</name>
 					</image>
 					<layers>
 						<enabled>true</enabled>
