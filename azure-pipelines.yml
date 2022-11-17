@@ -30,8 +30,8 @@ steps:
   
   - task: Docker@2
     inputs:
-      containerRegistry: 'Arunregistry'
-      repository: 'arunrepo'
+      containerRegistry: 'jhansi'
+      repository: 'jhansi'
       command: 'buildAndPush'
       Dockerfile: '**/Dockerfile'
   
