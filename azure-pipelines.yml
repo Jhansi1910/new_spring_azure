@@ -32,13 +32,6 @@ steps:
     inputs:
       containerRegistry: 'Arunregistry'
       repository: 'arunrepo'
-      command: 'buildAndPush'
-      Dockerfile: '**/Dockerfile'
-  - task: Docker@2
-    displayName: Push Docker image
-    inputs:
-      containerRegistry: 'Arunregistry'
-      repository: 'mysql'
       command: 'push'
-      tags: 'latest'
+  
   
