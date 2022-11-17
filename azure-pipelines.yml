@@ -38,6 +38,7 @@ steps:
     displayName: Push Docker image
     inputs:
       containerRegistry: 'Arunregistry'
+      repository: 'mysql'
       command: 'push'
       tags: 'latest'
   
