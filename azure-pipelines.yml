@@ -38,7 +38,7 @@ steps:
     displayName: Push Docker image
     inputs:
       containerRegistry: 'Arunregistry'
-      repository: 'arunrepo'
+      repository: 'openjdk:8'
       command: 'push'
       tags: 'latest'
   
