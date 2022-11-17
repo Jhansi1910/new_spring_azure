@@ -32,6 +32,7 @@ steps:
     inputs:
       containerRegistry: 'Arunregistry'
       repository: 'arunrepo'
-      command: 'push'
+      command: 'buildAndPush'
+      Dockerfile: '**/Dockerfile'
   
   
