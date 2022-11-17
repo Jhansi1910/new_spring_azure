@@ -38,7 +38,7 @@ steps:
     displayName: Push Docker image
     inputs:
       containerRegistry: 'Arunregistry'
-      repository: 'new_spring'
+      repository: 'arunrepo'
       command: 'push'
       tags: 'latest'
   
