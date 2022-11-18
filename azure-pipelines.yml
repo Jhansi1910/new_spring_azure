@@ -32,5 +32,10 @@ steps:
     inputs:
       containerRegistry: 'jhansisc'
       command: 'login'
-  
+  - task: Docker@2
+    inputs:
+      containerRegistry: 'jhansisc'
+      repository: 'pulluturujhansi / azure'
+      command: 'buildAndPush'
+      Dockerfile: '**/Dockerfile'
   
